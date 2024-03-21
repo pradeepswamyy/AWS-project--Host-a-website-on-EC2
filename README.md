@@ -44,8 +44,8 @@ This guide provides step-by-step instructions on how to host a static website us
    - Verify the files using `ls -lrt`.
 
 9. **Start HTTPD Service**:
-   - Start HTTPD service using `systemctl start httpd`.
-   - Enable HTTPD to start on boot using `systemctl enable httpd`.
+   - enable HTTPD service using `systemctl enable httpd`.
+   - start HTTPD to start on boot using `systemctl start httpd`.
 
 10. **Check Website**:
     - Open a web browser and enter your EC2 instance's public IP address.
